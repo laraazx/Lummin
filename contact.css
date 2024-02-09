@@ -51,3 +51,63 @@
 .navbar a:hover {
   color: #a18778;
 }
+
+main{
+  margin-top: 5%;
+}
+
+.box {
+  width: 1150px;
+  height: 542px;
+  border: solid #524035 1.5px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.elements {
+  display: flex;
+  align-items: center;
+}
+
+.image img {
+  width: 450px;
+}
+
+.forms{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  gap: 20px;
+}
+
+.name label, .email label, .message label{ 
+  font-weight: bolder;
+}
+
+
+
+input{
+  width: 50vh;
+  height: 7vh;
+  
+}
+
+.forms input::placeholder {
+  color: #888; 
+  font-style: italic; 
+  font-size: 14px; 
+}
+
+.forms label {
+  margin-bottom: 5px;
+  display: block;
+  font-weight: bold;
+}
+
+.forms input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
