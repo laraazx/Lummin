@@ -52,8 +52,9 @@
   color: #a18778;
 }
 
-main{
+main {
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .box {
@@ -71,32 +72,33 @@ main{
 }
 
 .image img {
-  width: 450px;
+  margin-top: 3px;
+  width: 448px;
 }
 
-.forms{
+.forms {
   display: flex;
   flex-direction: column;
-  margin-left: 5%;
+  margin-left: 25%;
   gap: 20px;
 }
 
-.name label, .email label, .message label{ 
+.name label,
+.email label,
+.message label {
   font-weight: bolder;
 }
 
-
-
-input{
+input {
   width: 50vh;
   height: 7vh;
-  
+  font-weight: bold;
 }
 
 .forms input::placeholder {
-  color: #888; 
-  font-style: italic; 
-  font-size: 14px; 
+  color: #000;
+  font-size: 14px;
+  font-weight: bolder;
 }
 
 .forms label {
@@ -110,4 +112,16 @@ input{
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+button{
+  width: 50vh;
+  height: 7vh;
+  color: #fff;
+  border: none;
+  background: #a18778;
+  font-weight: bolder;
+  font-size: 14px;
+  border-radius: 5px;
 }
