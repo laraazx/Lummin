@@ -20,7 +20,7 @@ router.get('/sobre', function(request, response) {
     response.sendFile(path.join(__dirname + '/sobre.html'));
 });
 
-router.get('/contact', function(req, res) {
+router.get('/contato', function(req, res) {
     console.log("Contatos");
     res.sendFile(path.join(__dirname + '/contact.html'))
 })
@@ -29,6 +29,6 @@ router.get('/contact', function(req, res) {
 app.use(express.static(__dirname));
 
 app.use('/', router);
-app.listen(process.env.port || 3006);
+app.listen(process.env.port || 3005);
 
-console.log("Servidor rodando na porta 127.0.0.1:3006");
+console.log("Servidor rodando na porta 127.0.0.1:3005");

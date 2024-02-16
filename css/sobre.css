@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d9d9d9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #524035;
+}
+
+.navbar {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 40px;
+  list-style: none;
+}
+
+.navbar li {
+  cursor: pointer;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000;
+  transition-duration: 0.3s;
+}
+
+.navbar a:hover {
+  color: #a18778;
+}
+
+main {
+  margin-top: 5%;
+}
+
+.start {
+  display: flex;
+  justify-content: space-between;
+}
+
+.who {
+  margin: 5% 0 0 8%;
+  width: 30%;
+  font-size: 50px;
+
+}
+
+.title h1 {
+  text-align: center;
+  cursor: pointer;
+}
+
+.retangle {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-size: 23px;
+  text-align: center;
+  color: #000;
+  width: 58%;
+}
+
+.text h2 {
+  cursor: pointer;
+}
+
+.banner {
+  cursor: pointer;
+  margin-top: 15%;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+.end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.textEnd {
+  width: 50%;
+  text-align: center;
+}
+
+.end h2 {
+  font-size: 30px;
+}
+
+footer {
+  margin-top: 20%;
+}
+
+.logoFooter {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  margin: -1.5% 30px 0 30px;
+}
+
+.line {
+  width: 300px;
+  height: 1px;
+  background: #a18778;
+}
+
+.support {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  margin-right: 3%;
+}
+
+.l1,
+.l2 {
+  font-size: 10px;
+  text-align: center;
+}
+
+.l1 h2,
+.l2 h2 {
+  margin-bottom: 10px;
+}
+
+.icons img {
+  width: 40px;
+  margin: 0 60px 0 0;
+}
+
+.linha {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.contact {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subtitle {
+  font-size: 16px;
+}
+
+.square {
+  width: 350px;
+  height: 70px;
+  border: 2px solid #000;
+  text-align: center;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.square2 {
+  width: 350px;
+  height: 70px;
+  border: 2px solid #000;
+  margin-top: -2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square h1,
+.square2 h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.copyright {
+  margin: 5% 0 2% 0;
+  text-align: center;
+  font-size: 10px;
+}
