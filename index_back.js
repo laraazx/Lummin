@@ -1,7 +1,7 @@
 const http = require('http');
 
 const hostName = '127.0.0.1';
-const port = 3005;
+const port = 3006;
 
 const server = http.createServer((request, response) => {
     response.statusCode = 200;
@@ -9,5 +9,5 @@ const server = http.createServer((request, response) => {
 });
 
 server.listen(port, hostName, () => {
-    console.log("Servidor rodando na porta 127.0.0.1:3005")
+    console.log("Servidor rodando na porta 127.0.0.1:3006")
 });

@@ -29,6 +29,6 @@ router.get('/contato', function(req, res) {
 app.use(express.static(__dirname));
 
 app.use('/', router);
-app.listen(process.env.port || 3005);
+app.listen(process.env.port || 3006);
 
-console.log("Servidor rodando na porta 127.0.0.1:3005");
+console.log("Servidor rodando na porta 127.0.0.1:3006");
